@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: azure-vote-front
-        image: 'erickubtest.azurecr.io/azure-vote-front:v2'
+        image: 'erickubtest.azurecr.io/azure-vote-front:v1'
         ports:
         - containerPort: 80
         resources:
